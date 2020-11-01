@@ -61,6 +61,7 @@
     "@types/core-js": "^2.5.4",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.6",
+    "@types/webpack-env": "^1.15.3",
     "babel-jest": "^26.6.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-array-includes": "^2.0.3",

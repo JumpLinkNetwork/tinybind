@@ -2117,6 +2117,7 @@ __metadata:
     "@types/core-js": ^2.5.4
     "@types/jest": ^26.0.15
     "@types/node": ^14.14.6
+    "@types/webpack-env": ^1.15.3
     babel-jest: ^26.6.1
     babel-loader: ^8.1.0
     babel-plugin-array-includes: ^2.0.3
@@ -2160,6 +2161,7 @@ __metadata:
     "@types/core-js": ^2.5.4
     "@types/jest": ^26.0.15
     "@types/node": ^14.14.6
+    "@types/webpack-env": ^1.15.3
     babel-jest: ^26.6.1
     babel-loader: ^8.1.0
     babel-plugin-array-includes: ^2.0.3
@@ -3025,6 +3027,7 @@ __metadata:
   resolution: "@ribajs/tsconfig@portal:infra/tsconfig::locator=ribajs%40workspace%3A."
   dependencies:
     "@ribajs/types": ^1.9.0-beta.3
+    "@types/webpack-env": ^1.15.3
   languageName: node
   linkType: soft
 
@@ -3033,6 +3036,7 @@ __metadata:
   resolution: "@ribajs/tsconfig@workspace:infra/tsconfig"
   dependencies:
     "@ribajs/types": ^1.9.0-beta.3
+    "@types/webpack-env": ^1.15.3
   languageName: unknown
   linkType: soft
 
@@ -3045,6 +3049,8 @@ __metadata:
 "@ribajs/types@workspace:infra/types":
   version: 0.0.0-use.local
   resolution: "@ribajs/types@workspace:infra/types"
+  dependencies:
+    "@types/webpack-env": ^1.15.3
   languageName: unknown
   linkType: soft
 
@@ -3685,6 +3691,13 @@ __metadata:
     "@types/expect": ^1.20.4
     "@types/node": "*"
   checksum: 276311ea721697b0d42878ec256b08027d95836544ab5d04452f56661c4d775f290f3d412078523708d41b0dfcc72d33788ad7ac0afb3cdfaf7b57e40cdfcbf2
+  languageName: node
+  linkType: hard
+
+"@types/webpack-env@npm:^1.15.3":
+  version: 1.15.3
+  resolution: "@types/webpack-env@npm:1.15.3"
+  checksum: e37909d70e4940a431c912645dca781fd164c906f68be6419a09099cbf95e9936e958acd949c35d45f6f4f1144fa0ee46a3962bd6b46aa93173aed5a5bd5cdc2
   languageName: node
   linkType: hard
 

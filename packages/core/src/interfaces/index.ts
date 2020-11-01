@@ -10,6 +10,7 @@ export * from "./event-handler";
 export * from "./extensions";
 export * from "./formatter";
 export * from "./formatters";
+export * from "./hmr-status";
 export * from "./http-data-type";
 export * from "./http-method";
 export * from "./http-service-options";

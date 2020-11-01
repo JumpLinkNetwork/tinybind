@@ -1,3 +1,5 @@
+/// <reference types="webpack-env" />
+
 /** Type definition for html-loader */
 declare module "*.html" {
   const html: string;
